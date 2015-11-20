@@ -1,0 +1,8 @@
+<phpunit>
+	<testsuites>
+		<testsuite name="INVIQA_core">
+			<directory suffix='.php'>../development</directory>
+			<directory>.</directory>
+		</testsuite>
+	</testsuites>
+</phpunit>
