@@ -14,6 +14,7 @@ class CalendarTest extends \PHPUnit_Framework_TestCase {
 	public function testIncrementsMonth(){
 		
 		$this->stub->expects($this->once())->method('modify')->with("+1 month") ;
+		$this->stub->expects($this->once())->method('format')->with("F") ;
 		$this->test->incrementMonth() ;
 		
 	}
