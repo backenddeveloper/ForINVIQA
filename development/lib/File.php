@@ -11,7 +11,8 @@ class File {
 	
 		if(preg_match("/[^a-zA-Z_]/" , $filename) || strlen($filename) === 0){
 
-			throw new \InvalidArgumentException("Filename can only contain letters, numbers and underscores\n") ;
+			throw new \InvalidArgumentException("Filename can only contain letters,"
+							   ."numbers and underscores\n") ;
 			
 		}
 
