@@ -10,3 +10,7 @@ The company handles their Sales payroll in the following way:
 please do not take into account public holidays.
 -On the 15th of every month bonuses are paid for the previous month, unless that day is a
 weekend. In that case, they are paid the first Wednesday after the 15 th
+
+The output of the utility should be a CSV file, containing the payment dates for the next twelve months.
+The CSV file should contain a column for the month name, a column that contains the salary payment
+date for that month, and a column that contains the bonus payment date.
