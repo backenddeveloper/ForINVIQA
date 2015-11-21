@@ -15,7 +15,7 @@ To deploy the application copy the file:
   
 To run the application:
 
-    ~$ php Application.phar \<optional filename\>
+    ~$ php Application.phar <optional filename>
     
 The file is output into the current working directory.
   
