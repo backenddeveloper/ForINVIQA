@@ -12,7 +12,7 @@ To deploy the application copy the file:
   
 To run the application:
   php Application.phar \<optional filename\>
-  The file is output into the current working directory.
+The file is output into the current working directory.
   
 In development/lib/Calendar.php read "$this->dateObject->format("l")"  as "Day of the week".
 
