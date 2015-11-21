@@ -14,7 +14,7 @@ class Calendar {
 	
 	public function incrementMonth(){
 	
-		$this->dateObject->modify("+1 month") ;
+		$this->dateObject->modify("first day of next month") ;
 				
 		return $this->dateObject->format("F") ;
 	
