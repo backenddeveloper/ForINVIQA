@@ -22,3 +22,4 @@ The CSV file is output into the current working directory.
 In development/lib/Calendar.php read "$this->dateObject->format("l")"  as "Day of the week".
 
 Note: The entry point is procedural because there wasn't more time to build the application.
+Note: VFSStream is not used because it violates local security policies on the development environment.
